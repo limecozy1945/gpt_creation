@@ -1,5 +1,5 @@
 stoi=itos={}
-text="hello my name is abcdefghijklmnopqrstuvwxyz"
+text="hello my name is abcdefghijklmnopqrstuvwxyz" #could upload a file or random texts
 chars=sorted(list(set(text)))
 for i,ch in enumerate(chars): #enumerate is the index and the character taken sideways
     stoi[ch]=i
@@ -205,3 +205,4 @@ print(loss.item()) #prints the LAST loss item, technically how good or bad the m
 
     
     
+
